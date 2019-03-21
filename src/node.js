@@ -1,23 +1,24 @@
 class Node {
-	constructor(data, priority) {
+    constructor(data, priority) {
+        this.data = data;
+        this.priority = priority;
+    }
 
-	}
+    appendChild(node) {
 
-	appendChild(node) {
+    }
 
-	}
+    removeChild(node) {
 
-	removeChild(node) {
+    }
 
-	}
+    remove() {
 
-	remove() {
+    }
 
-	}
+    swapWithParent() {
 
-	swapWithParent() {
-		
-	}
+    }
 }
 
 module.exports = Node;
